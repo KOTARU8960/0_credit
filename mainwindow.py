@@ -162,7 +162,6 @@ class MainWindow(Qw.QMainWindow):
       o.Open.win.close()
     except AttributeError:
       pass
-    pass
 
   # バイナリモードでファイルの読込み
   def read_text(self,path):
